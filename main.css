@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@theme {
+    /* Fonts theme */
+    --font-ubuntu : "Ubuntu", sans-serif;
+    --font-inter : "Inter", sans-serif;
+    --font-robot : "Roboto", sans-serif;
+
+    /* color theme */
+    --color-aqua-700 : #207fbd;
+    --color-aqua-900 : #279ae4;
+}
