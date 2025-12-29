@@ -1,21 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- Bootstrap ICON's -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- Google Fonts  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
         rel="stylesheet">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./main.css" />
 </head>
 
-<body>
+<body class="">
 
     <!-- header start -->
     <header class="fixed top-0 w-full z-999">
@@ -74,9 +81,9 @@
     </header>
 
     <!-- header end -->
-    <main>
+    <main class="">
         <!-- hero start -->
-        <section class="relative h-screen w-full flex items-center overflow-hidden">
+        <section class="relative h-screen w-full flex items-center overflow " id="home">
             <div class="absolute inset-0 -z-10">
                 <img src="./assets/image.png" class="h-full w-full object-cover" alt="Business technology background">
                 <div class="absolute inset-0 bg-background/80"></div>
@@ -210,10 +217,10 @@
                         <div class="flex flex-wrap mt-8">
                             <div class="w-1/3 px-4 ">
                                 <div
-                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-aqua-700">
+                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-2xl/90 hover:shadow-aqua-700">
                                     <div
-                                        class="w-15 h-15 rounded-full bg-background/70 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
-                                        <span>hii</span>
+                                        class="w-15 h-15 rounded-full bg-aqua-700/20 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
+                                       <i class="bi bi-stars text-3xl text-aqua-900  group-hover:text-white duration-300" ></i>
                                     </div>
                                     <h3 class="text-white text-2xl font-bold font-ubuntu my-3">Our Core Principles</h3>
                                     <p class="text-white/70">
@@ -224,10 +231,10 @@
                             </div>
                             <div class="w-1/3 px-4 ">
                                 <div
-                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-aqua-700">
+                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-2xl/90 hover:shadow-aqua-700">
                                     <div
-                                        class="w-15 h-15 rounded-full bg-background/70 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
-                                        <span>hii</span>
+                                        class="w-15 h-15 rounded-full bg-aqua-700/20 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
+                                        <i class="bi bi-clock-history text-3xl text-aqua-900  group-hover:text-white duration-300"></i>
                                     </div>
                                     <h3 class="text-white text-xl font-bold font-ubuntu my-3">Our Core Principles</h3>
                                     <p class="text-white/70">
@@ -238,10 +245,10 @@
                             </div>
                             <div class="w-1/3 px-4 ">
                                 <div
-                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-aqua-700">
+                                    class="group py-8 px-6 bg-[#151d2d] rounded-3xl shadow-lg/20 shadow-aqua-700 hover:scale-105 duration-300 hover:shadow-2xl/90 hover:shadow-aqua-700">
                                     <div
-                                        class="w-15 h-15 rounded-full bg-background/70 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
-                                        <span>hii</span>
+                                        class="w-15 h-15 rounded-full bg-aqua-700/20 flex justify-center items-center group-hover:bg-aqua-900 duration-300">
+                                        <i class="bi bi-people text-3xl text-aqua-900  group-hover:text-white duration-300"></i>
                                     </div>
                                     <h3 class="text-white text-xl font-bold font-ubuntu my-3">Our Core Principles</h3>
                                     <p class="text-white/70">
@@ -277,17 +284,16 @@
                     <div class="flex flex-wrap mt-8">
                         <div class="w-1/3 px-4 ">
                             <div
-                                class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-3 font-bold00 hover:-translate-y-1.5 relative overflow-hidden">
+                                <i class="bi bi-stack text-4xl text-aqua-900"></i>
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">Digital Solutions</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
-
-
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
                                 </a>
                                 <span
                                     class="absolute w-1 h-0 group-hover:h-full duration-300  bg-aqua-900 top-0 left-0"></span>
@@ -296,14 +302,15 @@
                         <div class="w-1/3 px-4 ">
                             <div
                                 class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                <i class="bi bi-shield-check text-4xl text-aqua-900"></i>
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">Secure Systems</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
 
 
                                 </a>
@@ -314,14 +321,15 @@
                         <div class="w-1/3 px-4 ">
                             <div
                                 class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                <i class="bi bi-graph-up text-4xl text-aqua-900"></i> 
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">Growth Strategy</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
 
 
                                 </a>
@@ -334,16 +342,15 @@
                         <div class="w-1/3 px-4 ">
                             <div
                                 class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                <i class="bi bi-graph-up text-4xl text-aqua-900"></i>
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">AI Integration</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
-
-
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
                                 </a>
                                 <span
                                     class="absolute w-1 h-0 group-hover:h-full : duration-300  bg-aqua-900 top-0 left-0"></span>
@@ -352,16 +359,15 @@
                         <div class="w-1/3 px-4 ">
                             <div
                                 class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                <i class="bi bi-cloud-arrow-up text-4xl text-aqua-900"></i>
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">Cloud Services</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
-
-
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
                                 </a>
                                 <span
                                     class="absolute w-1 h-0 group-hover:h-full : duration-300  bg-aqua-900 top-0 left-0"></span>
@@ -370,14 +376,15 @@
                         <div class="w-1/3 px-4 ">
                             <div
                                 class="group py-9 px-7 bg-[#151d2d] rounded-3xl shadow-lg/10 shadow-aqua-700 duration-300 hover:-translate-y-1.5 relative overflow-hidden">
-                                <div class="w-15 h-15 rounded-full bg-background/70"></div>
+                                <i class="bi bi-gear text-4xl text-aqua-900"></i>
                                 <h3 class="text-white text-2xl font-bold font-ubuntu my-5">Process Automation</h3>
                                 <p class="text-white/70 mb-5">
                                     We adhere to a strict set of values focused on integrity, innovation, and client
                                     satisfaction in every aspect.
                                 </p>
-                                <a href="javscript:void(0)" class="text-aqua-900 mt-5">
+                                <a href="javscript:void(0)" class="text-aqua-900 mt-5 font-bold">
                                     Learn More
+                                    <i class="bi bi-arrow-right text-aquq-900 transform group-hover:translate-x-1 duration-300 inline-block"></i>
 
 
                                 </a>
@@ -403,7 +410,8 @@
                                 <span class="text-aqua-900 text-sm px-3 py-2 bg-aqua-700/20 rounded-full">Premium
                                     Features</span>
                                 <h3 class="font-ubuntu text-white text-5xl/15 font-light my-6">Elevating Your Digital
-                                    <br> Experience</h3>
+                                    <br> Experience
+                                </h3>
                                 <p class="text-white/70 text-lg">
                                     Curabitur ullamcorper ultricies nisi. Nam eget dui etiam rhoncus <br> maecenas
                                     tempus tellus eget condimentum rhoncus sem quam <br> semper libero sit amet
@@ -543,36 +551,44 @@
             <div class="py-15 bg-background">
                 <div class="container mx-auto px-4">
                     <div class="flex flex-wrap p-2 bg-[#151d2d] rounded-md">
-                        <div class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
+                        <div id="btn" onclick="contentView('content1')" class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
                             <div class="flex items-center gap-4 ">
-                                <div class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">01</div>
+                                <div
+                                    class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">
+                                    01</div>
                                 <div class="">
                                     <span class="block text-white">Innovation</span>
                                     <span class="block text-sm text-white/70">Creative solutions</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
+                        <div id="btn" onclick="contentView('content2')" class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
                             <div class="flex items-center gap-4 ">
-                                <div class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">02</div>
+                                <div
+                                    class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">
+                                    02</div>
                                 <div class="">
                                     <span class="block text-white">Strategy</span>
                                     <span class="block text-sm text-white/70">Business growth</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
+                        <div id="btn" onclick="contentView('content3')" class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
                             <div class="flex items-center gap-4 ">
-                                <div class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">03</div>
+                                <div
+                                    class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">
+                                    03</div>
                                 <div class="">
                                     <span class="block text-white">Performance</span>
                                     <span class="block text-sm text-white/70">Optimal results</span>
                                 </div>
                             </div>
                         </div>
-                        <div class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
+                        <div id="btn" onclick="contentView('content4')" class="w-1/4 bg-[#151d2d] p-6 group hover:bg-aqua-700/10 duration-300 rounded-md">
                             <div class="flex items-center gap-4 ">
-                                <div class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">04</div>
+                                <div
+                                    class="h-9 w-9 bg-[#f3f6f4]/20 text-white/70 font-bold  rounded-full flex justify-center items-center text-sm group-hover:bg-aqua-700/30 group-hover:text-aqua-900 duration-300">
+                                    04</div>
                                 <div class="">
                                     <span class="block text-white">Integration</span>
                                     <span class="block text-sm text-white/70">Seamless workflow</span>
@@ -580,15 +596,219 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-wrap "></div>
+                    <div id="content1" class="tab-content flex flex-wrap ">
+                        <div class="w-1/2 px-4">
+                            <span class="text-aqua-900 text-sm font-bold px-3 py-2 mt-18 mb-8 inline-block bg-aqua-700/20 rounded-full">
+                                <i class="bi bi-lightbulb me-1"></i>
+                                Innovation Hub
+                            </span>
+                            <h3 class="text-white text-4xl font-light font-ubuntu mb-8">Revolutionary Design Thinking</h3>
+                            <p class="text-white/70 mb-8">
+                                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="flex gap-7 mb-8 ">
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">145%</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Innovation Rate</span>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">28K</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Ideas Generated</span>
+                                </div>
+                            </div>
+                            <div class="space-y-5 mb-8">
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Aspernatur aut odit fugit sed quia consequuntur
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Magni dolores eos qui ratione voluptatem
+                                </div>
+                            </div>
+                            <div class="">
+                                <a href="#home" class="group scroll-smooth text-aqua-700 font-bold mt-4 block">
+                                    Explore Innovation
+                                    <i
+                                        class="bi bi-arrow-up-right ms-1 inline-block transform group-hover:translate-x-1 group-hover:-translate-y-1 duration-300"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-1/2 px-4 flex items-center">
+                            <img src="./assets/image copy 2.png" class="block w-full rounded-2xl" alt="">
+                        </div>
+                    </div>
+                    <div id="content2" class="tab-content flex flex-wrap hidden">
+                        <div class="w-1/2 px-4">
+                            <span class="text-aqua-900 text-sm font-bold px-3 py-2 mt-18 mb-8 inline-block bg-aqua-700/20 rounded-full">
+                                <i class="bi bi-lightbulb me-1"></i>
+                                Innovation Hub
+                            </span>
+                            <h3 class="text-white text-4xl font-light font-ubuntu mb-8">Revolutionary Design Thinking</h3>
+                            <p class="text-white/70 mb-8">
+                                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="flex gap-7 mb-8 ">
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">145%</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Innovation Rate</span>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">28K</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Ideas Generated</span>
+                                </div>
+                            </div>
+                            <div class="space-y-5 mb-8">
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Aspernatur aut odit fugit sed quia consequuntur
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Magni dolores eos qui ratione voluptatem
+                                </div>
+                            </div>
+                            <div class="">
+                                <a href="#home" class="group scroll-smooth text-aqua-700 font-bold mt-4 block">
+                                    Explore Innovation
+                                    <i
+                                        class="bi bi-arrow-up-right ms-1 inline-block transform group-hover:translate-x-1 group-hover:-translate-y-1 duration-300"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-1/2 px-4 flex items-center">
+                            <img src="./assets/image copy 3.png" class="block w-full rounded-2xl" alt="">
+                        </div>
+                    </div>
+                    <div id="content3" class="tab-content flex flex-wrap hidden">
+                        <div class="w-1/2 px-4">
+                            <span class="text-aqua-900 text-sm font-bold px-3 py-2 mt-18 mb-8 inline-block bg-aqua-700/20 rounded-full">
+                                <i class="bi bi-lightbulb me-1"></i>
+                                Innovation Hub
+                            </span>
+                            <h3 class="text-white text-4xl font-light font-ubuntu mb-8">Revolutionary Design Thinking</h3>
+                            <p class="text-white/70 mb-8">
+                                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="flex gap-7 mb-8 ">
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">145%</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Innovation Rate</span>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">28K</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Ideas Generated</span>
+                                </div>
+                            </div>
+                            <div class="space-y-5 mb-8">
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Aspernatur aut odit fugit sed quia consequuntur
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Magni dolores eos qui ratione voluptatem
+                                </div>
+                            </div>
+                            <div class="">
+                                <a href="#home" class="group scroll-smooth text-aqua-700 font-bold mt-4 block">
+                                    Explore Innovation
+                                    <i
+                                        class="bi bi-arrow-up-right ms-1 inline-block transform group-hover:translate-x-1 group-hover:-translate-y-1 duration-300"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-1/2 px-4 flex items-center">
+                            <img src="./assets/image copy 4.png" class="block w-full rounded-2xl" alt="">
+                        </div>
+                    </div> 
+                    <div id="content4" class="tab-content flex flex-wrap hidden">
+                        <div class="w-1/2 px-4">
+                            <span class="text-aqua-900 text-sm font-bold px-3 py-2 mt-18 mb-8 inline-block bg-aqua-700/20 rounded-full">
+                                <i class="bi bi-lightbulb me-1"></i>
+                                Innovation Hub
+                            </span>
+                            <h3 class="text-white text-4xl font-light font-ubuntu mb-8">Revolutionary Design Thinking</h3>
+                            <p class="text-white/70 mb-8">
+                                Sed ut perspiciatis unde omnis natus error sit voluptatem accusantium doloremque
+                                laudantium, totam rem aperiam eaque ipsa quae ab illo inventore veritatis et quasi
+                                architecto beatae vitae dicta sunt explicabo.
+                            </p>
+                            <div class="flex gap-7 mb-8 ">
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">145%</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Innovation Rate</span>
+                                </div>
+                                <div class="">
+                                    <h3 class="text-aqua-900 text-3xl font-light">28K</h3>
+                                    <span class="text-white/70 text-sm font-light uppercase">Ideas Generated</span>
+                                </div>
+                            </div>
+                            <div class="space-y-5 mb-8">
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Nemo enim ipsam voluptatem quia voluptas sit
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Aspernatur aut odit fugit sed quia consequuntur
+                                </div>
+                                <div class="text-white text-sm">
+                                    <i class="bi bi-arrow-right text-aqua-700 me-2 "></i>
+                                    Magni dolores eos qui ratione voluptatem
+                                </div>
+                            </div>
+                            <div class="">
+                                <a href="#home" class="group scroll-smooth text-aqua-700 font-bold mt-4 block">
+                                    Explore Innovation
+                                    <i
+                                        class="bi bi-arrow-up-right ms-1 inline-block transform group-hover:translate-x-1 group-hover:-translate-y-1 duration-300"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="w-1/2 px-4 flex items-center">
+                            <img src="./assets/image copy 5.png" class="block w-full rounded-2xl" alt="">
+                        </div>
+                    </div>
                 </div>
-            </div>
+            </div>  
         </section>
+
 
         <!-- tab sec end -->
 
 
+
+
     </main>
+    <script>
+        let button = document.querySelectorAll('#btn');
+        let content = document.querySelectorAll('.tab-content')
+
+        const contentView = ( tabId) =>{
+            content.forEach((btn)=>{btn.classList.add('hidden')})
+
+            document.getElementById(tabId).classList.remove('hidden');
+        }   
+    </script>
 </body>
 
 </html>
